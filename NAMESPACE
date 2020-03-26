@@ -1,0 +1,8 @@
+
+useDynLib(yags)
+
+#exportPattern("^[^\\.]")
+
+export( ar1mat, csmat, m2LG, mvnsamp, rmvlnorm, yags, yags.adeqReport,
+ yags.control, yags.glmReport, yags.wcorReport )
+

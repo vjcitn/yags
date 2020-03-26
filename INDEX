@@ -1,0 +1,24 @@
+DEMOdf                  simple demo data frame
+Spruce                  Spruce data from oswald
+WTS                     a vector of weights for use with DEMOdf
+ar1mat                  create correlation matrix with AR(1) structure
+csmat                   create correlation matrix of exchangeable
+                        structure
+m2LG                    compute a gaussian log likelihood criterion for
+                        a GEE fit
+mvnsamp                 create a balanced sample of MVN outcomes for
+                        input to gee-like programs
+print.yagsResult        write a report of a yags GEE solution on
+                        standard output
+rmvlnorm                simulated correlated lognormal deviates,
+                        according to appendix of Wang and Carey 2004
+                        JASA
+yags                    Yet Another GEE Solver
+yags.adeqReport         report on a yags fit
+yags.control            control iteration, etc. for yags()
+yags.glmReport          report on the GLM component of a GEE solution
+                        ... not to be used directly
+yags.make.libu          create libu.so in current working directory
+yags.object             object returned by yags()
+yags.wcorReport         report on working correlation elements of a GEE
+                        solution; not intended to be called directly.
